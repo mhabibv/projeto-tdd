@@ -9,11 +9,11 @@ Este projeto é um pequeno fragmento de software desenvolvido utilizando a metod
 
 ## Como rodar os testes
 1. Instale o Pytest: `pip install pytest`
-2. Na raiz do projeto, execute: `pytest`
+2. Na raiz do projeto, execute: `pytest` (ou `python -m pytest`, se o PATH não estiver configurado)
 
 ## 📖 Documentação do Código
 A documentação foi feita via *docstrings* no padrão Google/NumPy. 
 Para gerar a visualização em HTML:
 1. Instale o pdoc: `pip install pdoc`
-2. Execute: `pdoc src/cadastro.py -o html`
+2. Execute: `pdoc src/cadastro.py -o html` (ou `python -m pdoc src/cadastro.py -o html`, se o PATH não estiver configurado)
 3. Abra o arquivo `html/cadastro.html` no seu navegador.
